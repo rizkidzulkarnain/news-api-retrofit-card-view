@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"--><!--xmlns:card_view="http://schemas.android.com/apk/res-auto"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_marginLeft="5dp"--><!--android:layout_marginRight="5dp"--><!--android:layout_marginTop="5dp"--><!--card_view:cardCornerRadius="5dp">-->
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    card_view:cardCornerRadius="5dp">
+    <LinearLayout
+        android:id="@+id/news_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/anamasource"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="bla blas bla"/>
+        <TextView
+            android:id="@+id/desc_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"
+            tools:text="bla blas bla" />
+        <TextView
+            android:id="@+id/url_source"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@color/bluedark"
+            android:textSize="10sp"
+            tools:text="bla blas bla" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:id="@+id/news_layout"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:minHeight="72dp"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:padding="16dp">-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/anamasource"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="top"-->
+        <!--android:paddingRight="16dp"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="bold" />-->
+<!--</LinearLayout>&lt;!&ndash;</android.support.v7.widget.CardView>&ndash;&gt;-->
